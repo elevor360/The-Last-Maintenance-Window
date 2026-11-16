@@ -1,0 +1,25 @@
+Illustrations created using the built-in image-generation tool.
+Web copies are in assets/cover.webp, assets/control-room.webp,
+assets/expedition.webp and assets/dawn.webp.
+
+Prompt set:
+1. Cinematic realistic science fiction portrait cover. In 2089, a worn lunar
+communications station with radiators and antenna dishes, golden low sunlight,
+Earth above grey terrain, engineer in a practical white EVA suit with orange
+markings. Plausible engineering, restrained navy, amber and silver. No text.
+2. Landscape interior of a cramped lunar relay control room with old industrial
+switches and secured mugs. Mara, age 40 with tied-back dark curly hair and
+orange-grey overalls, and silver-haired technician Ivo examine a signal trace.
+Warm practical light, navy shadows, realistic painterly art. No text.
+3. Two white-and-orange suited engineers carry a folded radio antenna beside a
+small rover towards an abandoned lander on a lunar slope. Black sky, sharp low
+sunlight, safety lines, plausible equipment, realistic painterly art. No text.
+4. Hopeful lunar dawn at an industrial relay station: antennas, rover and a
+rectangular emergency antenna beneath a small Earth in black sky. Weathered
+engineering, navy, silver, amber, realistic painterly art. No text or clouds.
+
+The story's EVA expedition illustration is an atmospheric interpretation,
+rather than a technical diagram or an exact depiction of a particular moment.
+
+Cover accuracy edit: engineer wears a sealed EVA helmet with closed gold visor;
+spare helmet removed. All other scene details preserved. Built-in editing tool.

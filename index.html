@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111e2c"><meta name="description" content="Read The Last Maintenance Window, an illustrated, gently humorous science fiction novella from Elevor360D. Install for offline reading.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="assets/icon-192.png"><link rel="apple-touch-icon" href="assets/icon-192.png">
+<title>The Last Maintenance Window · Elevor360D</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./" id="homeLink">ELEVOR360D <span>STORY LIBRARY / 01</span></a><button id="install" class="install">Install book</button></header>
+<main>
+<section id="coverScreen" class="cover-screen" aria-labelledby="bookTitle">
+ <div class="cover-art"><img src="assets/cover.webp" alt="A lone engineer beside a weathered lunar relay station beneath a small Earth." width="933" height="1400"><div class="cover-label">AN ORIGINAL SCIENCE FICTION NOVELLA</div></div>
+ <div class="intro"><p class="eyebrow">THE MOON, 2089</p><h1 id="bookTitle">The Last<br>Maintenance<br><em>Window</em></h1><p class="deck">An old signal. A faulty clock.<br>One very inconvenient place to need a spare.</p><p class="synopsis">When a forgotten lunar lander begins transmitting after forty-three years of silence, radio engineer Mara Venn expects another repair job. What she finds could put the next supply ship at risk—and getting the answer will take more than a clever piece of software.</p><div class="facts"><span>50 story pages</span><span>10 chapters</span><span>Illustrated</span></div><div class="cover-actions"><button id="begin" class="primary">Begin reading <span aria-hidden="true">↗</span></button><button id="continue" hidden>Continue reading</button></div><p class="fine">A little humour. Some very old equipment. No faster-than-light solutions.</p><p id="offlineStatus" class="status" role="status">Preparing offline reading…</p><a class="store-link" href="https://elevor360d.co.uk/" target="_blank" rel="noopener">Visit the Elevor360D app store ↗</a></div>
+</section>
+<section id="reader" hidden aria-label="Book reader">
+ <div class="reader-tools"><button id="contentsButton" aria-expanded="false" aria-controls="contents">☰ <span>Chapters</span></button><div class="text-tools"><button id="smaller" aria-label="Decrease text size">A−</button><button id="larger" aria-label="Increase text size">A+</button><button id="theme" aria-label="Change reading theme">Theme</button><button id="bookmark" aria-pressed="false">Bookmark</button></div></div>
+ <nav id="contents" hidden aria-label="Chapters"><h2>Contents</h2><ol id="chapterList"></ol><div id="savedMarks"></div></nav>
+ <article id="page" tabindex="-1" aria-labelledby="pageHeading"></article>
+ <div class="page-bottom"><p id="pageMeta" aria-live="polite"></p><progress id="progress" max="50" value="1" aria-label="Reading progress"></progress><div class="page-nav"><button id="previous">← Previous</button><label class="jump">Page <input id="pageNumber" type="number" min="1" max="50" inputmode="numeric" aria-label="Go to page"> of 50</label><button id="goPage" aria-label="Go to selected page">Go</button><button id="next">Next →</button></div><p class="reader-note">Your place is saved on this device.</p></div>
+</section>
+</main>
+<dialog id="installHelp"><form method="dialog"><button class="close" aria-label="Close installation instructions">×</button><p class="eyebrow">TAKE THE STORY WITH YOU</p><h2>Install this book</h2><p id="installMessage">On Android, open this page in Chrome, then use the browser menu and choose <strong>Install app</strong> or <strong>Add to Home screen</strong>. On iPhone or iPad, open it in Safari, tap Share, then <strong>Add to Home Screen</strong>. On desktop Chrome or Edge, look for the install icon in the address bar or browser menu.</p><p>Open the book online once and wait for “Available offline” before disconnecting. Installing does not require an account.</p><button class="primary">Got it</button></form></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="story-data.js"></script><script src="app.js"></script>
+</body></html>
