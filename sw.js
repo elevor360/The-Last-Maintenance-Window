@@ -1,6 +1,6 @@
 'use strict';
 const PREFIX='last-window-'+self.registration.scope;
-const CACHE=PREFIX+'v1.4.0-android-audio-range-fix';
+const CACHE=PREFIX+'v1.5.0-controls-below-story';
 const FILES=['./','index.html','styles.css','app.js','story-data.js','story.txt','manifest.webmanifest','assets/cover.webp','assets/control-room.webp','assets/expedition.webp','assets/dawn.webp','assets/icon-192.png','assets/icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES);await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE)await caches.delete(name);await self.clients.claim();for(const client of await self.clients.matchAll())client.postMessage({type:'BOOK_CACHED'});})()));
